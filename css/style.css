@@ -1511,6 +1511,33 @@ a.small-blue-button {
     background-color: #E6B125;
     font-size: 90%;
     margin-bottom: -0.7em; }
+  .anchor-tile-exclusive.banner {
+    border-radius: 0;
+    background: #e6b125;
+    color: white;
+    padding-top: 20px; }
+    .anchor-tile-exclusive.banner:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      position: absolute;
+      bottom: -11px;
+      left: -1px;
+      border-width: 10px 2.2em 0 0;
+      border-color: #e6b325 transparent transparent transparent;
+      content: ""; }
+    .anchor-tile-exclusive.banner:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      position: absolute;
+      bottom: -11px;
+      right: -1px;
+      border-width: 0 2.2em 10px 0;
+      border-color: transparent #e6b325 transparent transparent;
+      content: ""; }
 
 .offers .coupon-type-exclusive {
   color: #E6B125; }
@@ -1646,5 +1673,17 @@ a.small-blue-button {
     display: block;
     border-radius: 3px;
     font-size: 16px; }
+
+.anchor-members-only {
+  font-size: .7em;
+  text-transform: capitalize; }
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 9px; }
+
+.faux-link {
+  color: #259fc4; }
 
 /*# sourceMappingURL=style.css.map */
